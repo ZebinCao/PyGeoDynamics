@@ -1,0 +1,34 @@
+[Basic_Parameters]
+dimension = 1D
+
+[Problem_Description]
+solver = conduction
+
+[Mesh_Information]
+mesh_type = 0
+length = 1.0
+nodes = 101
+mesh_file = 
+
+[Solver_Constant]
+therm_cond = 1
+
+[Solver_Initial_Condition]
+TIC_type = 1
+TIC_max = 10.0
+TIC_min = 0.0
+TIC_bg = 0.0
+TIC_per_loc = 50
+
+[Solver_tsolver]
+time_step = 0
+steps = 2000
+TBC_type = 0
+TBC_temp_0 = 0.0
+TBC_temp_1 = 0.0
+TBC_flux_0 = 10.0
+TBC_flux_1 = -10.0
+
+[Solver_Output]
+output_frequency = 100
+output_name = t_solution.
