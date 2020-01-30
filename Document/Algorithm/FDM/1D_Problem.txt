@@ -1,0 +1,5 @@
+1D thermal conduction:
+
+Forward in time, centered second order derivative.
+two bc: 1) fixed temperature at two ends; 2) fixed thermal flux at two end
+
