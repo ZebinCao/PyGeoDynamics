@@ -1,0 +1,11 @@
+[Basic_Parameters]
+dimension = 1D
+
+[Problem_Description]
+solver = 1D_conduction
+
+[Mesh_Information]
+mesh = 1
+length = 100.0
+nodes = 31
+mesh_file = 1d_coor.dat
